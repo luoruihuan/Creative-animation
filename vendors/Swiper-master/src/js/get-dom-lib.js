@@ -1,0 +1,1 @@
+var swiperDomPlugins=["jQuery","Zepto","Dom7"];for(var i=0;i<swiperDomPlugins.length;i++)window[swiperDomPlugins[i]]&&addLibraryPlugin(window[swiperDomPlugins[i]]);var domLib;typeof Dom7=="undefined"?domLib=window.Dom7||window.Zepto||window.jQuery:domLib=Dom7;

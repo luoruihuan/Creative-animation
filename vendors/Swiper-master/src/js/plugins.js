@@ -1,0 +1,1 @@
+s._plugins=[];for(var plugin in s.plugins){var p=s.plugins[plugin](s,s.params[plugin]);p&&s._plugins.push(p)}s.callPlugins=function(e){for(var t=0;t<s._plugins.length;t++)e in s._plugins[t]&&s._plugins[t][e](arguments[1],arguments[2],arguments[3],arguments[4],arguments[5])};
