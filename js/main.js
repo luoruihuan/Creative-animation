@@ -1,4 +1,4 @@
-require.config({
+﻿equire.config({
 	baseUrl:'./',
 	paths:{
 		'jquery':'vendors/jquery/dist/jquery.min',
