@@ -1,4 +1,4 @@
-﻿equire.config({
+﻿require.config({
 	baseUrl:'./',
 	paths:{
 		'jquery':'vendors/jquery/dist/jquery.min',
